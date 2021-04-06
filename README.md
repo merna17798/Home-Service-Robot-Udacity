@@ -7,8 +7,9 @@
 * turtlebot_gazebo: With the turtlebot_world.launch you can deploy a turtlebot in a gazebo environment by linking the world file to it.
 ## How your submission should be like
 ![image](https://user-images.githubusercontent.com/42812924/113694035-8ba25380-96cf-11eb-963b-adac7d5f2156.png)
-
+***
 ## We also had wrote some scripts:
+***
 * test_slam.sh
 ```
 sudo chmod 777 file_name.sh
@@ -22,9 +23,30 @@ sudo chmod 777 file_name.sh
 ```
 rosrun map_server map_saver
 ```
+***
 * test_navigation.sh
 
 ```
 ./test_navigation.sh
 ```
 > That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz. In rviz and push the 2D navigate to find if your robot can go the goal you can track if your goal reached or not through the second pop up terminal
+![ved](./gifs/test_nav.gif)
+***
+* pick_objects.sh
+
+```
+./pick_objects.sh
+```
+> That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz, then you will see your node peformed to go from pick up to drop-off destination
+![ved](./gifs/pick_objects.gif)
+***
+
+* home_service.sh
+
+```
+./home_service.sh
+```
+> That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz, then you will see your node peformed to go from pick up to drop-off destination. you can see terminal alongside to add a marker in rviz then it's deleted
+![ved](./gifs/home_service.gif)
+***
+In conclusion, this project is a good practice to go through path planning concepts
