@@ -13,12 +13,18 @@
 ```
 sudo chmod 777 file_name.sh
 ```
->>this is a required step to could run any .sh file in your environment due to permission issues.
+> This is a required step to could run any .sh file in your environment due to permission issues.
 
 ```
 ./test_slam.sh
 ```
->> That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz, the teleop package to map that world. Ater mapping, take a look on your map in rviz and if you are satisfied, kill the script and navigate to map directory to save your map using this command:
+> That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz, the teleop package to map that world. Ater mapping, take a look on your map in rviz and if you are satisfied, kill the script and navigate to map directory to save your map using this command:
 ```
 rosrun map_server map_saver
 ```
+* test_navigation.sh
+
+```
+./test_navigation.sh
+```
+> That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz. In rviz and push the 2D navigate to find if your robot can go the goal you can track if your goal reached or not through the second pop up terminal
