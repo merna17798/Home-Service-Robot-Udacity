@@ -49,4 +49,4 @@ rosrun map_server map_saver
 > That's how you could run this script. Remember to navigate to your scripts folder to run or using the above command. When you ran this script you will find that your gazebo environment wiith turtlebot, then the acml navigation scan terminal, then rviz, then you will see your node peformed to go from pick up to drop-off destination. you can see terminal alongside to add a marker in rviz then it's deleted
 ![ved](./gifs/home_service.gif)
 ***
-In conclusion, this project is a good practice to go through path planning concepts
+## In conclusion, this project is a good practice to go through path planning concepts
